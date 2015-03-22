@@ -1,0 +1,7 @@
+{
+  "public": {
+      "demo_mode": "true"
+    , "comment" : "demo_mode is always ON, unless you set demo_mode to false."
+  },
+  "dummy": " some other value"  
+}

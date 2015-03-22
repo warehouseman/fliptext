@@ -1,2 +1,10 @@
 .meteor/local
 .meteor/meteorite
+*.*~
+*~
+.meteor/shipping
+config.sh
+settings.json
+packages/*
+
+
