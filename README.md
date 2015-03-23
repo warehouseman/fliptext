@@ -23,8 +23,13 @@ When built into its accompanying demo app, it also shows correctly :
 ## Usage :
 There are two ways to see this in action :
 
-  1. Run its intenal test script.
-  2. Clone it's accompanying demo Meteor app - "fliptext-demo" and run the app's intenal test script.
+  1. Clone it's accompanying demo Meteor app - "fliptext-demo" and run the app's intenal test script.
+  2. Run its intenal test script.
+
+Using the latter, you should see a result like this :
+
+![Tiny Test report](http://i.imgur.com/NqDfNPd.png)
+
 
 ## Comment
 
