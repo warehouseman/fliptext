@@ -1,6 +1,6 @@
 # fliptext
 
-[![Build Status](https://travis-ci.org/warehouseman/fliptext.svg?branch=master)](https://travis-ci.org/warehouseman/fliptext)
+TravisCI latest build : [![Build Status](https://travis-ci.org/warehouseman/fliptext.svg?branch=master)](https://travis-ci.org/warehouseman/fliptext)
 
 # Synopsis
 A trivial jQuery plugin for printing text upside down.
