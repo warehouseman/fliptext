@@ -1,5 +1,7 @@
 # fliptext
 
+[![Build Status](https://travis-ci.org/warehouseman/fliptext.svg?branch=master)](https://travis-ci.org/warehouseman/fliptext)
+
 # Synopsis
 A trivial jQuery plugin for printing text upside down.
 Demonstrates creating and tiny-testing a bare minimum Meteor package.
