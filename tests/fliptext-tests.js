@@ -1,9 +1,6 @@
-// Write your tests here!
-// Here is an example.
-Tinytest.add('FlipText - Flip a defined character', function (test) {
-  test.equal(true, true);
+var testString = "Hello Tasmania"
+var requiredString = "ɐıuɐɯsɐ┴ oןןǝH"
 
-  console.log("~~~~~~~~~ from test runner ~~~~~~~~~");
-  console.log($(".flipme").text());
-//    $("#flipme").flipText();
-  });
+Tinytest.add('FlipText - Flip ' + testString + ' to ' + requiredString + '.', function (test) {
+  test.equal(requiredString, flipText(testString));
+});
