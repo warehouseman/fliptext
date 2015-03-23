@@ -8,11 +8,11 @@ Demonstrates creating and tiny-testing a bare minimum Meteor package.
 The real purpose of this package is to provide the simplest possible self-standing Meteor package that shows correctly :
 
  - the structure of a working Meteor package
- - inclusion of a working jQuery plugin   (I have the plugin work in the package but not in an ordinary web page)
+ - inclusion of a working jQuery plugin   (Currently, I have the plugin working in the package, but not in an ordinary web page)
  - a valid Travis CI build project
  - how to test with Tiny Test
 
-When built into it's accompanying demo app it also shows correctly :
+When built into its accompanying demo app, it also shows correctly :
 
  - testing with Velocity and Cucumber
  - working in a browser
