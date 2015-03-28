@@ -2,6 +2,7 @@
 
 TravisCI latest build : [![Build Status](https://travis-ci.org/warehouseman/fliptext.svg?branch=master)](https://travis-ci.org/warehouseman/fliptext)
 
+Can you help with this failure?  I am asking about it [here](https://forums.meteor.com/t/has-something-changed-in-travis/2141)
 # Synopsis
 A trivial jQuery plugin for printing text upside down.
 Demonstrates creating and tiny-testing a bare minimum Meteor package.
