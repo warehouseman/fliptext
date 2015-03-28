@@ -11,7 +11,7 @@ The real purpose of this package is to provide the simplest possible self-standi
 
  - the structure of a working Meteor package
  - inclusion of a working jQuery plugin   (Currently, I have the plugin working in the package, but not in an ordinary web page)
- - a valid Travis CI build project
+ - a valid [Travis CI build project](https://travis-ci.org/warehouseman/fliptext)
  - how to test with Tiny Test
 
 When built into its [accompanying demo app](https://github.com/warehouseman/fliptext-demo), it also shows correctly :
@@ -19,6 +19,7 @@ When built into its [accompanying demo app](https://github.com/warehouseman/flip
  - testing with Velocity and Cucumber
  - working in a browser
  - working in an Android phone
+ - publishing [on Atmospherejs.com](https://atmospherejs.com/warehouseman/fliptext) 
 
 ## Usage :
 There are two ways to see this in action :

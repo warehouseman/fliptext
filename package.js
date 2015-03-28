@@ -1,6 +1,6 @@
 Package.describe({
   name: 'warehouseman:fliptext',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Test the javascript function "flipext"',
   // URL to the Git repository containing the source code for this package.
@@ -12,6 +12,8 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.4.2');
+  api.use('jquery', 'client');
+
   api.addFiles('fliptext.js');
 
   api.export('flipText');    //  Critically important
