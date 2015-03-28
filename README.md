@@ -10,7 +10,7 @@ Demonstrates creating and tiny-testing a bare minimum Meteor package.
 The real purpose of this package is to provide the simplest possible self-standing Meteor package that shows correctly :
 
  - the structure of a working Meteor package
- - inclusion of a working jQuery plugin   (Currently, I have the plugin working in the package, but not in an ordinary web page)
+ - inclusion of a working jQuery plugin
  - a valid [Travis CI build project](https://travis-ci.org/warehouseman/fliptext)
  - how to test with Tiny Test
 

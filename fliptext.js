@@ -103,8 +103,6 @@ flipText = function(content) {
   return result.join('');
 };
 
-/*  ------   This is the way it should be ------  */
-/*
 (function ( $ ) {
 
   $.fn.flipElementText = function() {
@@ -113,23 +111,3 @@ flipText = function(content) {
   };
 
 }( jQuery ));
-*/
-
-
-/*  ------        This is what works      ------  */
-/*
-*/
-Meteor.startup(function () {
-  if (Meteor.isClient) {
-//    console.log("~~~~ warehouseman:fliptext --> client-side startup ~~~~~~~~~ ");
-    (function ( $ ) {
-
-      $.fn.flipElementText = function() {
-        this.text(flipText(this.text()));
-        return this;
-      };
-
-    }( jQuery ));
-
-  }
-});

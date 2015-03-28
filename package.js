@@ -1,8 +1,8 @@
 Package.describe({
   name: 'warehouseman:fliptext',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
-  summary: 'Test the javascript function "flipext"',
+  summary: 'A working skeleton of a jQuery plugin for Meteor.  Oh, yeah ... also it turns text upsidedown.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/warehouseman/fliptext',
   // By default, Meteor will default to using README.md for documentation.
@@ -12,16 +12,15 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.4.2');
+
   api.use('jquery', 'client');
-
-  api.addFiles('fliptext.js');
-
-  api.export('flipText');    //  Critically important
+  api.addFiles('fliptext.js', 'client');
+  api.export('flipText', 'client');
 });
 
 Package.onTest(function(api) {
   // Standard
-  api.use('warehouseman:fliptext');
+  api.use('warehouseman:fliptext', 'client');
   api.use('tinytest');
   api.addFiles('./tests/fliptext-tests.js', ["client"]);
 });
