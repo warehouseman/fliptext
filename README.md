@@ -15,7 +15,7 @@ The real purpose of this package is to provide the simplest possible self-standi
 
 When built into its [accompanying demo app](https://github.com/warehouseman/fliptext-demo), it also shows correctly :
 
- - testing with Velocity and Cucumber
+ - testing with Mocha and Cucumber through Velocity
  - working in a browser
  - working in an Android phone
  - publishing [on Atmospherejs.com](https://atmospherejs.com/warehouseman/fliptext) 
