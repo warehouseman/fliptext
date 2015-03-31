@@ -1,6 +1,6 @@
 Package.describe({
   name: 'warehouseman:fliptext',
-  version: '0.0.5',
+  version: '0.0.6',
   summary: 'A working skeleton of a jQuery plugin for Meteor. Oh, yeah! Also it happens to turn text upsidedown',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/warehouseman/fliptext',
