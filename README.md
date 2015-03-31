@@ -2,10 +2,8 @@
 
 TravisCI latest build : [![Build Status](https://travis-ci.org/warehouseman/fliptext.svg?branch=master)](https://travis-ci.org/warehouseman/fliptext)
 
-Can you help with this failure?  I am asking about it [here](https://forums.meteor.com/t/has-something-changed-in-travis/2141)
 # Synopsis
-A trivial jQuery plugin for printing text upside down.
-Demonstrates creating and tiny-testing a bare minimum Meteor package.
+Demonstrates creating and tiny-testing a bare minimum Meteor package.  Used in conjunction with the demo package, it provides a fully functional app and embedded package tested with TinyTest and with Mocha and Cucumber through Velocity.
 
 # Purpose
 The real purpose of this package is to provide the simplest possible self-standing Meteor package that shows correctly :
@@ -31,6 +29,28 @@ There are two ways to see this in action :
 Using the latter, you should see a result like this :
 
 ![Tiny Test report](http://i.imgur.com/NqDfNPd.png)
+
+## Adaptation : 
+To modify this package for your own needs, do this :
+
+    export WORK=/home/yourself/someProjectDir  # FIXME
+    cd ${WORK}
+    git clone git@github.com:warehouseman/fliptext-demo.git
+    git clone git@github.com:warehouseman/fliptext.git
+    cd fliptext-demo
+    mkdir -p packages
+    cd packages
+    ln -s ${WORK}/fliptext warehouseman:fliptext
+    cd ..
+    meteor
+
+You will see meteor install itself, downloading packages from AtmosphereJS, including warehouseman:fliptext.  Open your browser to localhost:3000 and you should see Velocity get 4 green passes.
+
+Start up your editor and increment the version number parameter in the file */home/yourself/someProjectDir/fliptext/package.js*
+
+Save the file, while watching the console log of meteor.  You will see that it immediately upgrades the fliptext package to the new local version.
+
+You can then alter the fliptext code and immediately see the effect in Velocity.
 
 
 ## Comment
