@@ -31,26 +31,24 @@ Using the latter, you should see a result like this :
 ![Tiny Test report](http://i.imgur.com/NqDfNPd.png)
 
 ## Adaptation : 
-To modify this package for your own needs, do this :
+To modify this package for your own needs, you'll need to fork the repo and then do the following (of course, substituting "yourself", "someProjectDir" and "your-git-hub-profile-name" correctly) :
 
     export WORK=/home/yourself/someProjectDir  # FIXME
     cd ${WORK}
-    git clone git@github.com:warehouseman/fliptext-demo.git
-    git clone git@github.com:warehouseman/fliptext.git
+    git clone git@github.com:yourGitHubProfileName/fliptext-demo.git
+    git clone git@github.com:yourGitHubProfileName/fliptext.git
     cd fliptext-demo
     mkdir -p packages
     cd packages
-    ln -s ${WORK}/fliptext warehouseman:fliptext
+    ln -s ${WORK}/fliptext yourGitHubProfileName:fliptext
     cd ..
     meteor
 
 You will see meteor install itself, downloading packages from AtmosphereJS, including warehouseman:fliptext.  Open your browser to localhost:3000 and you should see Velocity get 4 green passes.
 
-Start up your editor and increment the version number parameter in the file */home/yourself/someProjectDir/fliptext/package.js*
+Start up your editor and increment the version number parameter in the file */home/yourself/someProjectDir/fliptext/package.js*. Also, edit the files `.meteor/packages` and `.meteor/version` replacing `warehouseman` with `yourGitHubProfileName`.
 
-Save the file, while watching the console log of meteor.  You will see that it immediately upgrades the fliptext package to the new local version.
-
-You can then alter the fliptext code and immediately see the effect in Velocity.
+Save the file, while watching the console log of meteor.  If all goes well, you can then alter the fliptext code and immediately see the effect in Velocity.
 
 
 ## Comment
