@@ -23,8 +23,8 @@ When built into its [accompanying demo app](https://github.com/warehouseman/flip
 ## Usage :
 There are two ways to see this in action :
 
-  1. Clone it's accompanying demo Meteor app - "[fliptext-demo](https://github.com/warehouseman/fliptext-demo)" and run the app's intenal test script.
-  2. Run its intenal test script.
+  1. Clone it's accompanying demo Meteor app - "[fliptext-demo](https://github.com/warehouseman/fliptext-demo)" and run the app's internal test script.
+  2. Run its internal test script.
 
 Using the latter, you should see a result like this :
 
