@@ -46,7 +46,7 @@ To modify this package for your own needs, you'll need to fork the repo and then
 
 You will see meteor install itself, downloading packages from AtmosphereJS, including warehouseman:fliptext.  Open your browser to localhost:3000 and you should see Velocity get 4 green passes.
 
-Start up your editor and increment the version number parameter in the file `/home/yourself/someProjectDir/fliptext/package.js`. Also, edit the files `.meteor/packages` and `.meteor/version` replacing `warehouseman` with `yourGitHubProfileName`.
+Start up your editor and edit the files `.meteor/packages` and `.meteor/version` replacing `warehouseman` with `yourGitHubProfileName`.
 
 Save the file, while watching the console log of meteor.  If all goes well, you can then alter the fliptext code and immediately see the effect in Velocity.
 
